@@ -40,6 +40,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: project-name # 此处需要修改为第2步中你自己的项目名
+          project: toodles-wechat-arti-46 # 此处需要修改为第2步中你自己的项目名
           entrypoint: server/index.ts
           root: .output
